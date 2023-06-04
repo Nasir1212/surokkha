@@ -1,0 +1,76 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template/small-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-small-business/blob/master/LICENSE)
+ */
+
+.react-datepicker-wrapper {
+  display: block !important;
+}
+
+.card-custom * {
+  font-family: 'SolaimanLipiNormal', Arial, sans-serif !important;
+  font-size: 15px;
+  /* text-align: justify; */
+  /* padding-top: 20px !important; */
+}
+.card-custom table, .card-custom th, .card-custom td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.card-custom th, .card-custom td {
+  padding: 5px;
+  text-align: left;
+}
+
+
+.qr-code-box {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: black;
+  padding: 10px;
+  box-sizing: content-box;
+  border: 2px solid transparent;
+}
+
+.qr-code-box::before, .qr-code-box::after, span::before, span::after {
+  display: block;
+  content: "";
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+
+.qr-code-box::before {
+  top: -2px;
+  left: -2px;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+}
+.qr-code-box::after {
+  top: -2px;
+  right: -2px;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+}
+.qr-code-box span::before {
+  bottom: -2px;
+  left: -2px;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+}
+.qr-code-box span::after {
+  bottom: -2px;
+  right: -2px;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
+
+.qr-code-box:hover {
+border: 3px solid black;
+}
